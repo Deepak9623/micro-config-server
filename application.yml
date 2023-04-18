@@ -1,6 +1,9 @@
 spring:
   application:
     name: USER-SERVICE
+  profiles:
+    active: dev
+  
 
 eureka:
   instance:
